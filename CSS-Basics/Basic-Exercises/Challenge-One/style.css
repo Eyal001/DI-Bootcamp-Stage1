@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(30, 147, 201);
+}
+li::first-letter {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+ul {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  list-style-type: none;
+}
