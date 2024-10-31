@@ -1,0 +1,28 @@
+html {
+  background-color: rgb(233, 167, 92);
+}
+body {
+  border: 5px dashed black;
+  background-color: beige;
+}
+h1 {
+  border-bottom: 5px dashed black;
+
+  text-align: center;
+  font-weight: 50px;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+}
+li::first-letter {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+ul {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  list-style-type: none;
+}
